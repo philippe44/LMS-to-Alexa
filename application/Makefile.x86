@@ -1,0 +1,10 @@
+CFLAGS  ?= -Wall -fPIC -ggdb -O2 $(OPTS) $(INCLUDE) $(DEFINES)
+LDFLAGS ?= -s -lgomp -lpthread -lssl -lcrypto -ldl -lm -lrt -lz -lstdc++ -L. 
+# for LD debug -s
+
+OBJ					= bin/x86
+EXECUTABLE 			= bin/squeeze2alexa-x86
+EXECUTABLE_STATIC 	= bin/squeeze2alexa-x86-static
+
+include Makefile
+

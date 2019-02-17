@@ -1,0 +1,9 @@
+CFLAGS  ?= -Wall -fPIC -ggdb -O2 -m64 $(OPTS) -I/usr/include/i386-linux-gnu $(INCLUDE) $(DEFINES)
+LDFLAGS ?= -s -m64 -lgomp -lpthread -lssl -lcrypto -ldl -lm -lrt -lstdc++ -L. 
+
+OBJ					= bin/x86-64
+EXECUTABLE 			= bin/squeeze2alexa-x86-64
+EXECUTABLE_STATIC 	= bin/squeeze2alexa-x86-64-static
+
+include Makefile
+

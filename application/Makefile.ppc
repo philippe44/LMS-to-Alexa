@@ -1,0 +1,10 @@
+CC = powerpc-cross-linux-gnu-gcc
+CFLAGS  ?= -Wall -fPIC -ggdb -O2 $(OPTS) $(INCLUDE) $(DEFINES)
+LDFLAGS ?= -s -lgomp -lpthread -lssl -lcrypto -ldl -lm -lrt -lstdc++ -L. 
+
+OBJ					= bin/ppc
+EXECUTABLE 			= bin/squeeze2alexa-ppc
+EXECUTABLE_STATIC	= bin/squeeze2alexa-ppc-static
+
+include Makefile
+
