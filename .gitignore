@@ -92,7 +92,6 @@ tests/
 sonos/
 misc/
 application/bin/Win32/Debug
-application/bin/*.xml*
 *.o??
 bin.old/
 #plugin/Bin

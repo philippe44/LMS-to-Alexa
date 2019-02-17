@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<squeeze2alexa>
+<common>
+<streambuf_size>2457600</streambuf_size>
+<output_size>4000000</output_size>
+<stream_length>-3</stream_length>
+<enabled>1</enabled>
+<roon_mode>0</roon_mode>
+<mode>thru</mode>
+<codecs>aac,flc,pcm,mp3,ogg</codecs>
+<sample_rate>96000</sample_rate>
+<flac_header>1</flac_header>
+<send_icy>0</send_icy>
+<volume_on_play>1</volume_on_play>
+<send_metadata>1</send_metadata>
+<send_coverart>1</send_coverart>
+<auto_play>0</auto_play>
+</common>
+<upnp_socket>?</upnp_socket>
+<slimproto_log>info</slimproto_log>
+<stream_log>info</stream_log>
+<output_log>info</output_log>
+<decode_log>info</decode_log>
+<main_log>info</main_log>
+<slimmain_log>info</slimmain_log>
+<cast_log>info</cast_log>
+<util_log>warn</util_log>
+<log_limit>-1</log_limit>
+<device>
+<udn>92be89d7338688500d850077b0a0b068</udn>
+<name>Alexa</name>
+<friendly_name>Alexa Kitchen</friendly_name>
+<mac>ee:ee:82:00:96:d2</mac>
+<port></port>
+</device>
+</squeeze2alexa>
