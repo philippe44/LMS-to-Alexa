@@ -592,7 +592,7 @@ static void LoadAlexa(void)
 		char *UDN, *Name;
 		IXML_Node *device, *node;
 		char *Model;
-		char *MimeCaps[] = {"audio/flac", "audio/mpeg", "audio/wav", "audio/ogg", "audio/aac", NULL };
+		char *MimeCaps[] = {"audio/flac", "audio/mpeg", "audio/wav", "audio/ogg", "audio/aac", "audio/L16", NULL };
 
 		device = ixmlNodeList_item(list, i);
 

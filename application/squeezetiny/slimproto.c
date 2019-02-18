@@ -976,7 +976,7 @@ static bool process_start(u8_t format, u32_t rate, u8_t size, u8_t channels, u8_
 	s32_t sample_rate;
 
 	LOCK_O;
-	out->index++;
+	// out->index++;
 	// try to handle next track failed stream where we jump over N tracks
 	info.offset = ctx->render.index != -1 ? out->index - ctx->render.index : 0;
 	_buf_resize(ctx->outputbuf, ctx->config.outputbuf_size);
